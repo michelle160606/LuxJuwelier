@@ -1,0 +1,157 @@
+
+
+@charset "utf-8";
+
+*{					/* Bildschirm reset*/
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#base{
+    background-color: white;
+    width: 900px;
+    height: 600px;
+    display: block;
+}
+#logo{
+    background-color: white;
+    width: 200px;
+    height: 120px;
+    margin-left: 350px;
+	display: flex;
+}
+#logo img{
+	width: 150px;
+	height: 110px;
+	margin: auto;
+}
+#links{
+    background-color: white;
+    width: 900px;
+    height: 50px;
+    display: flex;
+}
+#home{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    display: flex;
+}
+#home a{
+    font-size:1em;
+    margin: auto;
+}
+#schmuck{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    display: flex;
+}
+#schmuck a{
+    font-size:1em;
+    margin: auto;
+}
+#trauringe{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    display: flex;
+}
+#trauringe a{
+    font-size:1em;
+    margin: auto;
+}
+#uhren{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    display: flex;
+}
+#uhren a{
+    font-size:1em;
+    margin: auto;
+}
+#kontakt{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    display: flex;
+}
+#kontakt a{
+    font-size:1em;
+    margin: auto;
+}
+#impressum{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    display: flex;
+}
+#impressum a{
+    font-size:1em;
+    margin: auto;
+	font-weight: 900;
+}
+#bild{
+    background-color: #E8E8E8;
+    width: 900px;
+    height: 240px;
+    display: block;
+}
+#Start-Bild img{
+	margin-left: 180px;
+	height: 240px;
+}
+#Start-Bild{
+	height: 240px;
+}
+#info{
+    background-color: white;
+    width: 900px;
+    height: 190px;
+    display: flex;
+}
+#infolinks{
+    background-color: white;
+    width: 420px;
+    height: 190px;
+    display: block;
+	margin-left: 180px;
+}
+#infolinks h1{
+    font-size: 1em;
+	margin-top: 15px;
+}
+#infolinks h2{
+    font-size: 0.5em;
+}
+#infolinks h3{
+    font-size: 1em;
+	margin-top: 15px;
+}
+#infolinks h4{
+    font-size: 0.5em;
+}
+#infolinks h5{
+    font-size: 0.5em;
+}
+#infolinks h6{
+    font-size: 0.5em;
+}
+#inforechts{
+    background-color: white;
+    width: 300px;
+    height: 190px;
+    display: block;
+}
+#inforechts h1{
+    font-size: 1em;
+	margin-top: 15px;
+}
+#inforechts h2{
+    font-size: 0.5em;
+	margin-top: 10px;
+}
+a:link, a:visited { color: #000000; text-decoration:none;}
+a:active, a:hover { color: #f4d153; text-decoration: underline;}

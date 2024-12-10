@@ -1,0 +1,237 @@
+
+
+@charset "utf-8";
+
+*{					/* Bildschirm reset*/
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#base{
+    background-color: white;
+    width: 900px;
+    height: 600px;
+    display: block;
+}
+#logo{
+    background-color: white;
+    width: 200px;
+    height: 120px;
+    margin-left: 350px;
+	display: flex;
+}
+#logo img{
+	width: 150px;
+	height: 110px;
+	margin: auto;
+}
+#links{
+    background-color: white;
+    width: 900px;
+    height: 50px;
+    display: flex;
+}
+#home{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    display: flex;
+}
+#home a{
+    font-size:1em;
+    margin: auto;
+	font-weight: 900;
+}
+#schmuck{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    display: flex;
+}
+#schmuck a{
+    font-size:1em;
+    margin: auto;
+}
+#trauringe{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    display: flex;
+}
+#trauringe a{
+    font-size:1em;
+    margin: auto;
+}
+#uhren{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    display: flex;
+}
+#uhren a{
+    font-size:1em;
+    margin: auto;
+}
+#kontakt{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    display: flex;
+}
+#kontakt a{
+    font-size:1em;
+    margin: auto;
+}
+#impressum{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    display: flex;
+}
+#impressum a{
+    font-size:1em;
+    margin: auto;
+}
+#bild{
+    background-color: #E8E8E8;
+    width: 900px;
+    height: 430px;
+    display: block;
+}
+#Start-Bild img{
+	margin-left: 180px;
+	height: 360px;
+}
+#Start-Bild{
+	height: 360px;
+}
+#bildinfo{
+    background-color: white;
+    width: 900px;
+    height: 70px;
+    display: flex;
+}
+#instalogo{
+    background-color: white;
+    width: 25px;
+    height: 70px;
+	display: flex;
+}
+#instalogo img{
+	width: 20px;
+	height: 20px;
+	margin-top: 25px;
+	margin-left: 2.5px;
+}
+#insta{
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    display: flex;
+}
+#insta p{
+    font-size:0.7em;
+	margin-top: 30px;
+}
+#tiktoklogo{
+    background-color: white;
+    width: 25px;
+    height: 70px;
+	display: flex;
+}
+#tiktoklogo img{
+	width: 20px;
+	height: 20px;
+	margin-top: 25px;
+	margin-left: 2.5px;
+}
+#tiktok{
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    display: flex;
+}
+#tiktok p{
+    font-size:0.7em;
+	margin-top: 30px;
+}
+#facebooklogo{
+    background-color: white;
+    width: 25px;
+    height: 70px;
+	display: flex;
+}
+#facebooklogo img{
+	width: 20px;
+	height: 20px;
+	margin-top: 25px;
+	margin-left: 2.5px;
+}
+#facebook{
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    display: flex;
+}
+#facebook p{
+    font-size:0.7em;
+	margin-top: 30px;
+}
+#youtubelogo{
+    background-color: white;
+    width: 25px;
+    height: 70px;
+	display: flex;
+}
+#youtubelogo img{
+	width: 20px;
+	height: 20px;
+	margin-top: 25px;
+	margin-left: 2.5px;
+}
+#youtube{
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    display: flex;
+}
+#youtube p{
+    font-size:0.7em;
+	margin-top: 30px;
+}
+#xlogo{
+    background-color: white;
+    width: 25px;
+    height: 70px;
+	display: flex;
+}
+#xlogo img{
+	width: 20px;
+	height: 20px;
+	margin-top: 25px;
+	margin-left: 2.5px;
+}
+#x{
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    display: flex;
+}
+#x p{
+    font-size:0.7em;
+	margin-top: 30px;
+}
+#kontaktinfo{
+    background-color: white;
+    width: 150px;
+    height: 70px;
+    margin-left: 245px;
+	display: flex;
+}
+#kontaktinfo p{
+    font-size:0.6em;
+	margin-top: 15px;
+}
+a:link, a:visited { color: #000000; text-decoration:none;}
+a:active, a:hover { color: #f4d153; text-decoration: underline;}

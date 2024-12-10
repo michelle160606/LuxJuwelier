@@ -1,0 +1,402 @@
+
+
+@charset "utf-8";
+
+*{					/* Bildschirm reset*/
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#base{
+    background-color: white;
+    width: 900px;
+    height: 600px;
+    display: block;
+}
+#logo{
+    background-color: white;
+    width: 200px;
+    height: 120px;
+    margin-left: 350px;
+	display: flex;
+}
+#logo img{
+	width: 150px;
+	height: 110px;
+	margin: auto;
+}
+#links{
+    background-color: white;
+    width: 900px;
+    height: 50px;
+    display: flex;
+}
+#home{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    display: flex;
+}
+#home a{
+    font-size:1em;
+    margin: auto;
+}
+#schmuck{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    display: flex;
+}
+#schmuck a{
+    font-size:1em;
+    margin: auto;
+}
+#trauringe{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    display: flex;
+}
+#trauringe a{
+    font-size:1em;
+    margin: auto;
+}
+#uhren{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    display: flex;
+}
+#uhren a{
+    font-size:1em;
+    margin: auto;
+}
+#kontakt{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    display: flex;
+}
+#kontakt a{
+    font-size:1em;
+    margin: auto;
+	font-weight: 900;
+}
+#impressum{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    display: flex;
+}
+#impressum a{
+    font-size:1em;
+    margin: auto;
+}
+#bild{
+    background-color: #E8E8E8;
+    width: 900px;
+    height: 240px;
+    display: block;
+}
+#Start-Bild img{
+	margin-left: 180px;
+	height: 240px;
+}
+#Start-Bild{
+	height: 240px;
+}
+#info{
+    background-color: white;
+    width: 900px;
+    height: 190px;
+    display: block;
+}
+#inforechts{
+    background-color: white;
+    width: 250px;
+    height: 150px;
+	margin-left: 650px;
+	display: flex;
+}
+#inforechts img{
+	width: 200px;
+	height: 130px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+#infooben{
+     width: 650px;
+    height: 150px;
+	display: flex;
+}
+#infooben1{
+    background-color: white;
+    width: 180px;
+    height: 150px;
+	display: flex;
+	margin-top: -150px;
+}
+#infooben1 h1{
+    font-size:1em;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+#infooben1 h2{
+    font-size:0.5em;
+	margin-left: 10px;
+}
+#infooben1 h3{
+    font-size:0.5em;
+	margin-left: 10px;
+}
+#infooben1 h4{
+    font-size:0.5em;
+	margin-left: 10px;
+}
+#infooben1 h5{
+    font-size:0.5em;
+	margin-left: 10px;
+}
+#infooben1 h6{
+    font-size:0.5em;
+	margin-left: 10px;
+}
+#infooben2{
+    background-color: white;
+    width: 176px;
+    height: 150px;
+	display: flex;
+	margin-top: -150px;
+}
+#infooben2 h1{
+    font-size:1em;
+	margin-top: 15px;
+}
+#infooben2 h2{
+    font-size:0.5em;
+}
+#infooben2 h3{
+    font-size:0.5em;
+}
+#infooben2 h4{
+    font-size:0.5em;
+}
+#infooben2 h5{
+    font-size:0.5em;
+}
+#infooben2 h6{
+    font-size:0.5em;
+}
+#infooben3{
+    background-color: white;
+    width: 152px;
+    height: 150px;
+	display: flex;
+	margin-top: -150px;
+}
+#infooben3 h1{
+    font-size:1em;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+#infooben3 h2{
+    font-size:0.5em;
+	margin-left: 10px;
+}
+#infooben3 h3{
+    font-size:0.5em;
+	margin-left: 10px;
+}
+#infooben3 h4{
+    font-size:0.5em;
+	margin-left: 10px;
+}
+#infooben3 h5{
+    font-size:0.5em;
+	margin-left: 10px;
+}
+#infooben3 h6{
+    font-size:0.5em;
+	margin-left: 10px;
+}
+#infooben3 h7{
+    font-size:0.5em;
+	margin-left: 10px;
+}
+#infooben3 h8{
+    font-size:0.5em;
+	margin-left: 10px;
+}
+#infooben4{
+    background-color: white;
+    width: 142px;
+    height: 150px;
+	display: block;
+	margin-top: -150px;
+}
+#infooben41{
+    background-color: white;
+    width: 142px;
+    height: 30px;
+	display: flex;
+}
+#infooben41 h1{
+    font-size:1em;
+	margin-top: 15px;
+}
+#infooben42{
+    background-color: white;
+    width: 30px;
+    height: 40px;
+	display: flex;
+}
+#infooben42 img{
+	width: 20px;
+	height: 30px;
+	margin-top: 3px;
+	margin-left: 5px;
+}
+#infooben43{
+    background-color: white;
+    width: 95px;
+    height: 40px;
+	margin-left: 30px;
+	margin-top: -40px;
+}
+#infooben43 h1{
+    font-size: 0.5em;
+	margin-top: 3px;
+}
+#infooben43 h2{
+    font-size: 0.5em;
+	margin-top: 8px;
+}
+#infounten{
+    background-color: white;
+    width: 650px;
+    height: 40px;
+	display: flex;
+}
+#instalogo{
+    background-color: white;
+    width: 25px;
+    height: 40px;
+	display: flex;
+	margin-top: -150px;
+}
+#instalogo img{
+	width: 20px;
+	height: 20px;
+	margin-top: 8px;
+	margin-left: 2.5px;
+}
+#insta{
+    background-color: white;
+    width: 70px;
+    height: 40px;
+    display: flex;
+	margin-top: -150px;
+}
+#insta p{
+    font-size:0.7em;
+	margin-top: 13px;
+}
+#tiktoklogo{
+    background-color: white;
+    width: 25px;
+    height: 40px;
+	display: flex;
+	margin-top: -150px;
+}
+#tiktoklogo img{
+	width: 20px;
+	height: 20px;
+	margin-top: 8px;
+	margin-left: 2.5px;
+}
+#tiktok{
+    background-color: white;
+    width: 70px;
+    height: 40px;
+    display: flex;
+	margin-top: -150px;
+}
+#tiktok p{
+    font-size:0.7em;
+	margin-top: 13px;
+}
+#facebooklogo{
+    background-color: white;
+    width: 25px;
+    height: 40px;
+	display: flex;
+	margin-top: -150px;
+}
+#facebooklogo img{
+	width: 20px;
+	height: 20px;
+	margin-top: 8px;
+	margin-left: 2.5px;
+}
+#facebook{
+    background-color: white;
+    width: 70px;
+    height: 40px;
+    display: flex;
+	margin-top: -150px;
+}
+#facebook p{
+    font-size:0.7em;
+	margin-top: 13px;
+}
+#youtubelogo{
+    background-color: white;
+    width: 25px;
+    height: 40px;
+	display: flex;
+	margin-top: -150px;
+}
+#youtubelogo img{
+	width: 20px;
+	height: 20px;
+	margin-top: 8px;
+	margin-left: 2.5px;
+}
+#youtube{
+    background-color: white;
+    width: 70px;
+    height: 40px;
+    display: flex;
+	margin-top: -150px;
+}
+#youtube p{
+    font-size:0.7em;
+	margin-top: 13px;
+}
+#xlogo{
+    background-color: white;
+    width: 25px;
+    height: 40px;
+	display: flex;
+	margin-top: -150px;
+}
+#xlogo img{
+	width: 20px;
+	height: 20px;
+	margin-top: 8px;
+	margin-left: 2.5px;
+}
+#x{
+    background-color: white;
+    width: 70px;
+    height: 40px;
+    display: flex;
+	margin-top: -150px;
+}
+#x p{
+    font-size:0.7em;
+	margin-top: 13px;
+}
+a:link, a:visited { color: #000000; text-decoration:none;}
+a:active, a:hover { color: #f4d153; text-decoration: underline;}

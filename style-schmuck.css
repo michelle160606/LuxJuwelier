@@ -1,0 +1,257 @@
+
+
+@charset "utf-8";
+
+*{					/* Bildschirm reset*/
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#base{
+    background-color: white;
+    width: 900px;
+    height: 600px;
+    display: block;
+}
+#logo{
+    background-color: white;
+    width: 200px;
+    height: 120px;
+    margin-left: 350px;
+	display: flex;
+}
+#logo img{
+	width: 150px;
+	height: 110px;
+	margin: auto;
+}
+#links{
+    background-color: white;
+    width: 900px;
+    height: 50px;
+    display: flex;
+}
+#home{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    display: flex;
+}
+#home a{
+    font-size:1em;
+    margin: auto;
+}
+#schmuck{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    display: flex;
+}
+#schmuck a{
+    font-size:1em;
+    margin: auto;
+	font-weight: 900;
+}
+#trauringe{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    display: flex;
+}
+#trauringe a{
+    font-size:1em;
+    margin: auto;
+}
+#uhren{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    display: flex;
+}
+#uhren a{
+    font-size:1em;
+    margin: auto;
+}
+#kontakt{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    display: flex;
+}
+#kontakt a{
+    font-size:1em;
+    margin: auto;
+}
+#impressum{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    display: flex;
+}
+#impressum a{
+    font-size:1em;
+    margin: auto;
+}
+#bild{
+    background-color: #E8E8E8;
+    width: 900px;
+    height: 240px;
+    display: block;
+}
+#Start-Bild img{
+	margin-left: 180px;
+	height: 240px;
+}
+#Start-Bild{
+	height: 240px;
+}
+#bildinfo{
+    background-color: white;
+    width: 900px;
+    height: 190px;
+    display: flex;
+}
+#ring1{
+    background-color: white;
+    width: 135px;
+    height: 190px;
+    display: block;
+	margin-left: 180px;
+}
+#ring1bild{
+    background-color: white;
+    width: 135px;
+    height: 126px;
+    display: flex;
+}
+#ring1bild img{
+	margin: auto;
+	width: 95px;
+    height: 105px;
+}
+#ring1text{
+    background-color: white;
+    width: 135px;
+    height: 64px;
+    display: block;
+}
+#ring1text h1{
+    font-size:0.5em;
+	margin-left: 5px;
+}
+#ring1text h2{
+    font-size:0.5em;
+	margin-left: 60px;
+}
+#ring1text h3{
+    font-size:1em;
+	margin-left: 42px;
+}
+#ring2{
+    background-color: red;
+    width: 135px;
+    height: 190px;
+    display: block;
+}
+#ring2bild{
+    background-color: white;
+    width: 135px;
+    height: 126px;
+    display: flex;
+}
+#ring2bild img{
+	margin: auto;
+	width: 120px;
+    height: 125px;
+}
+#ring2text{
+    background-color: white;
+    width: 135px;
+    height: 64px;
+    display: block;
+}
+#ring2text h1{
+    font-size:0.5em;
+	margin-left: 15px;
+}
+#ring2text h2{
+    font-size:0.5em;
+	margin-left: 60px;
+}
+#ring2text h3{
+    font-size:1em;
+	margin-left: 42px;
+}
+#ring3{
+    background-color: white;
+    width: 135px;
+    height: 190px;
+    display: block;
+}
+#ring3bild{
+    background-color: white;
+    width: 135px;
+    height: 126px;
+    display: flex;
+}
+#ring3bild img{
+	margin: auto;
+	width: 100px;
+    height: 105px;
+}
+#ring3text{
+    background-color: white;
+    width: 135px;
+    height: 64px;
+    display: block;
+}
+#ring3text h1{
+    font-size:0.5em;
+	margin-left: 25px;
+}
+#ring3text h2{
+    font-size:0.5em;
+	margin-left: 60px;
+}
+#ring3text h3{
+    font-size:1em;
+	margin-left: 42px;
+}
+#ring4{
+    background-color: white;
+    width: 135px;
+    height: 190px;
+    display: block;
+}
+#ring4bild{
+    background-color: white;
+    width: 135px;
+    height: 126px;
+    display: flex;
+}
+#ring4bild img{
+	margin: auto;
+	width: 135px;
+    height: 125px;
+}
+#ring4text{
+    background-color: white;
+    width: 135px;
+    height: 64px;
+    display: block;
+}
+#ring4text h1{
+    font-size:0.5em;
+	margin-left: 25px;
+}
+#ring4text h2{
+    font-size:0.5em;
+	margin-left: 60px;
+}
+#ring4text h3{
+    font-size:1em;
+	margin-left: 38px;
+}
+a:link, a:visited { color: #000000; text-decoration:none;}
+a:active, a:hover { color: #f4d153; text-decoration: underline;}
